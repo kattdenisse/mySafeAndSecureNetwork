@@ -1,0 +1,29 @@
+/**
+* @file Security_cfg.h
+*
+* @date 		17/02/2021
+* @author 		Katya Denisse Ortega Luna
+* @brief		El componente realiza
+*
+*
+*/
+
+#ifndef Security_cfg_H_
+#define Security_cfg_H_
+
+/* system headers */
+
+/*****************************************************************************/
+/* exported configuration macros */
+
+/**
+ * @brief
+ * @note
+ */
+#define KEY_CFG						\
+{ 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06 }
+
+#define IV_CFG						\
+{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+
+#endif /* Security_cfg_H_ */
